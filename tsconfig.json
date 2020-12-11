@@ -1,0 +1,41 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "./dist",
+        "jsx": "react",
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "declaration": false,
+        "downlevelIteration": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "useDefineForClassFields": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "target": "es2015",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "lib": [
+            "es2018",
+            "dom"
+        ],
+        "types": ["reflect-metadata"],
+        "paths": {
+            "@ui": [
+                "src/ui"
+            ],
+            "@ui/*": [
+                "src/ui/*"
+            ],
+            "@components": [
+                "src/components"
+            ],
+            "@components/*": [
+                "src/components/*"
+            ]
+        }
+    }
+}
